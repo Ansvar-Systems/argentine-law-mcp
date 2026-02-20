@@ -1,0 +1,400 @@
+{
+  "id": "ley-25506",
+  "type": "statute",
+  "title": "Ley 25.506 — Ley de Firma Digital",
+  "title_en": "Digital Signature Law (Law 25,506)",
+  "short_name": "Ley 25.506",
+  "status": "in_force",
+  "issued_date": "2001-12-11",
+  "in_force_date": "2001-12-11",
+  "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/70000-74999/70749/norma.htm",
+  "description": "Establishes the legal framework for digital and electronic signatures in Argentina. Recognizes the legal validity and enforceability of digital signatures, defines requirements for certification authorities, and sets up the digital signature infrastructure.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "CAPITULO I",
+      "section": "1",
+      "title": " Objeto",
+      "content": " Objeto. Se reconoce el empleo de la firma electrónica y de la firma digital y su eficacia jurídica en las condiciones que establece la presente ley."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "CAPITULO I",
+      "section": "2",
+      "title": " Firma Digital",
+      "content": " Firma Digital. Se entiende por firma digital al resultado de aplicar a un documento digital un procedimiento matemático que requiere información de exclusivo conocimiento del firmante, encontrándose ésta bajo su absoluto control. La firma digital debe ser susceptible de verificación por terceras partes, tal que dicha verificación simultáneamente permita identificar al firmante y detectar cualquier alteración del documento digital posterior a su firma. Los procedimientos de firma y verificación a ser utilizados para tales fines serán los determinados por la Autoridad de Aplicación en consonancia con estándares tecnológicos internacionales vigentes."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "CAPITULO I",
+      "section": "3",
+      "title": " Del requerimiento de firma",
+      "content": " Del requerimiento de firma. Cuando la ley requiera una firma manuscrita, esa exigencia también queda satisfecha por una firma digital. Este principio es aplicable a los casos en que la ley establece la obligación de firmar o prescribe consecuencias para su ausencia."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "CAPITULO I",
+      "section": "4",
+      "title": " Exclusiones",
+      "content": " Exclusiones. Las disposiciones de esta ley no son aplicables: a) A las disposiciones por causa de muerte; b) A los actos jurídicos del derecho de familia; c) A los actos personalísimos en general; d) A los actos que deban ser instrumentados bajo exigencias o formalidades incompatibles con la utilización de la firma digital, ya sea como consecuencia de disposiciones legales o acuerdo de partes."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "CAPITULO I",
+      "section": "5",
+      "title": " Firma electrónica",
+      "content": " Firma electrónica. Se entiende por firma electrónica al conjunto de datos electrónicos integrados, ligados o asociados de manera lógica a otros datos electrónicos, utilizado por el signatario como su medio de identificación, que carezca de alguno de los requisitos legales para ser considerada firma digital. En caso de ser desconocida la firma electrónica corresponde a quien la invoca acreditar su validez."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "CAPITULO I",
+      "section": "6",
+      "title": " Documento digital",
+      "content": " Documento digital. Se entiende por documento digital a la representación digital de actos o hechos, con independencia del soporte utilizado para su fijación, almacenamiento o archivo. Un documento digital también satisface el requerimiento de escritura."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "CAPITULO I",
+      "section": "7",
+      "title": " Presunción de autoría",
+      "content": " Presunción de autoría. Se presume, salvo prueba en contrario, que toda firma digital pertenece al titular del certificado digital que permite la verificación de dicha firma."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "CAPITULO I",
+      "section": "8",
+      "title": " Presunción de integridad",
+      "content": " Presunción de integridad. Si el resultado de un procedimiento de verificación de una firma digital aplicado a un documento digital es verdadero, se presume, salvo prueba en contrario, que este documento digital no ha sido modificado desde el momento de su firma."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "CAPITULO I",
+      "section": "9",
+      "title": " Validez",
+      "content": " Validez. Una firma digital es válida si cumple con los siguientes requisitos: a) Haber sido creada durante el período de vigencia del certificado digital válido del firmante; b) Ser debidamente verificada por la referencia a los datos de verificación de firma digital indicados en dicho certificado según el procedimiento de verificación correspondiente; c) Que dicho certificado haya sido emitido o reconocido, según el"
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "CAPITULO I",
+      "section": "16",
+      "title": "de la presente, por un certificador licenciado",
+      "content": "de la presente, por un certificador licenciado."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "CAPITULO I",
+      "section": "10",
+      "title": " Remitente",
+      "content": " Remitente. Presunción. Cuando un documento digital sea enviado en forma automática por un dispositivo programado y lleve la firma digital del remitente se presumirá, salvo prueba en contrario, que el documento firmado proviene del remitente."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "CAPITULO I",
+      "section": "11",
+      "title": " Original",
+      "content": " Original. Los documentos electrónicos firmados digitalmente y los reproducidos en formato digital firmados digitalmente a partir de originales de primera generación en cualquier otro soporte, también serán considerados originales y poseen, como consecuencia de ello, valor probatorio como tales, según los procedimientos que determine la reglamentación."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "CAPITULO I",
+      "section": "12",
+      "title": " Conservación",
+      "content": " Conservación. La exigencia legal de conservar documentos, registros o datos, también queda satisfecha con la conservación de los correspondientes documentos digitales firmados digitalmente, según los procedimientos que determine la reglamentación, siempre que sean accesibles para su posterior consulta y permitan determinar fehacientemente el origen, destino, fecha y hora de su generación, envío y/o recepción. CAPITULO II De los certificados digitales"
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "CAPITULO II",
+      "section": "13",
+      "title": " Certificado digital",
+      "content": " Certificado digital. Se entiende por certificado digital al documento digital firmado digitalmente por un certificador, que vincula los datos de verificación de firma a su titular."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "CAPITULO II",
+      "section": "14",
+      "title": " Requisitos de validez de los certificados digitales",
+      "content": " Requisitos de validez de los certificados digitales. Los certificados digitales para ser válidos deben: a) Ser emitidos por un certificador licenciado por el ente licenciante; b) Responder a formatos estándares reconocidos internacionalmente, fijados por la autoridad de aplicación, y contener, como mínimo, los datos que permitan: 1. Identificar indubitablemente a su titular y al certificador licenciado que lo emitió, indicando su período de vigencia y los datos que permitan su identificación única; 2. Ser susceptible de verificación respecto de su estado de revocación; 3. Diferenciar claramente la información verificada de la no verificada incluidas en el certificado; 4. Contemplar la información necesaria para la verificación de la firma; 5. Identificar la política de certificación bajo la cual fue emitido."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "CAPITULO II",
+      "section": "15",
+      "title": " Período de vigencia del certificado digital",
+      "content": " Período de vigencia del certificado digital. A los efectos de esta ley, el certificado digital es válido únicamente dentro del período de vigencia, que comienza en la fecha de inicio y finaliza en su fecha de vencimiento, debiendo ambas ser indicadas en el certificado digital, o su revocación si fuere revocado. La fecha de vencimiento del certificado digital referido en el párrafo anterior en ningún caso puede ser posterior a la del vencimiento del certificado digital del certificador licenciado que lo emitió. La Autoridad de Aplicación podrá establecer mayores exigencias respecto de la determinación exacta del momento de emisión, revocación y vencimiento de los certificados digitales."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "CAPITULO III",
+      "section": "17",
+      "title": " Del certificador licenciado",
+      "content": " Del certificador licenciado. Se entiende por certificador licenciado a toda persona de existencia ideal, registro público de contratos u organismo público que expide certificados, presta otros servicios en relación con la firma digital y cuenta con una licencia para ello, otorgada por el ente licenciante. La actividad de los certificadores licenciados no pertenecientes al sector público se prestará en régimen de competencia. El arancel de los servicios prestados por los certificadores licenciados será establecido libremente por éstos."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "CAPITULO III",
+      "section": "18",
+      "title": " Certificados por profesión",
+      "content": " Certificados por profesión. Las entidades que controlan la matrícula, en relación a la prestación de servicios profesionales, podrán emitir certificados digitales en lo referido a esta función, con igual validez y alcance jurídico que las firmas efectuadas en forma manuscrita. A ese efecto deberán cumplir los requisitos para ser certificador licenciado."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "CAPITULO III",
+      "section": "19",
+      "title": " Funciones",
+      "content": " Funciones. El certificador licenciado tiene las siguientes funciones: a) Recibir una solicitud de emisión de certificado digital, firmada digitalmente con los correspondientes datos de verificación de firma digital del solicitante; b) Emitir certificados digitales de acuerdo a lo establecido en sus políticas de certificación, y a las condiciones que la autoridad de aplicación indique en la reglamentación de la presente ley; c) Identificar inequívocamente los certificados digitales emitidos; d) Mantener copia de todos los certificados digitales emitidos, consignando su fecha de emisión y de vencimiento si correspondiere, y de sus correspondientes solicitudes de emisión; e) Revocar los certificados digitales por él emitidos en los siguientes casos, entre otros que serán determinados por la reglamentación: 1) A solicitud del titular del certificado digital. 2) Si determinara que un certificado digital fue emitido en base a una información falsa, que en el momento de la emisión hubiera sido objeto de verificación. 3) Si determinara que los procedimientos de emisión y/o verificación han dejado de ser seguros. 4) Por condiciones especiales definidas en su política de certificación. 5) Por resolución judicial o de la autoridad de aplicación. f) Informar públicamente el estado de los certificados digitales por él emitidos. Los certificados digitales revocados deben ser incluidos en una lista de certificados revocados indicando fecha y hora de la revocación. La validez y autoría de dicha lista de certificados revocados deben ser garantizadas."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "CAPITULO III",
+      "section": "20",
+      "title": " Licencia",
+      "content": " Licencia. Para obtener una licencia el certificador debe cumplir con los requisitos establecidos por la ley y tramitar la solicitud respectiva ante el ente licenciante, el que otorgará la licencia previo dictamen legal y técnico que acredite la aptitud para cumplir con sus funciones y obligaciones. Estas licencias son intransferibles."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "CAPITULO III",
+      "section": "21",
+      "title": " Obligaciones",
+      "content": " Obligaciones. Son obligaciones del certificador licenciado: a) Informar a quien solicita un certificado con carácter previo a su emisión y utilizando un medio de comunicación las condiciones precisas de utilización del certificado digital, sus características y efectos, la existencia de un sistema de licenciamiento y los procedimientos, forma que garantiza su posible responsabilidad patrimonial y los efectos de la revocación de su propio certificado digital y de la licencia que le otorga el ente licenciante. Esa información deberá estar libremente accesible en lenguaje fácilmente comprensible. La parte pertinente de dicha información estará también disponible para terceros; b) Abstenerse de generar, exigir, o por cualquier otro medio tomar conocimiento o acceder bajo ninguna circunstancia, a los datos de creación de firma digital de los titulares de certificados digitales por él emitidos; c) Mantener el control exclusivo de sus propios datos de creación de firma digital e impedir su divulgación; d) Operar utilizando un sistema técnicamente confiable de acuerdo con lo que determine la autoridad de aplicación; e) Notificar al solicitante las medidas que está obligado a adoptar para crear firmas digitales seguras y para su verificación confiable, y las obligaciones que asume por el solo hecho de ser titular de un certificado digital; f) Recabar únicamente aquellos datos personales del titular del certificado digital que sean necesarios para su emisión, quedando el solicitante en libertad de proveer información adicional; g) Mantener la confidencialidad de toda información que no figure en el certificado digital; h) Poner a disposición del solicitante de un certificado digital toda la información relativa a su tramitación; i) Mantener la documentación respaldatoria de los certificados digitales emitidos, por diez (10) años a partir de su fecha de vencimiento o revocación; j) Incorporar en su política de certificación los efectos de la revocación de su propio certificado digital y/o de la licencia que le otorgara la autoridad de aplicación; k) Publicar en Internet o en la red de acceso público de transmisión o difusión de datos que la sustituya en el futuro, en forma permanente e ininterrumpida, la lista de certificados digitales revocados, las políticas de certificación, la información relevante de los informes de la última auditoría de que hubiera sido objeto, su manual de procedimientos y toda información que determine la autoridad de aplicación; l) Publicar en el Boletín Oficial aquellos datos que la autoridad de aplicación determine; m) Registrar las presentaciones que le sean formuladas, así como el trámite conferido a cada una de ellas; n) Informar en las políticas de certificación si los certificados digitales por él emitidos requieren la verificación de la identidad del titular; o) Verificar, de acuerdo con lo dispuesto en su manual de procedimientos, toda otra información que deba ser objeto de verificación, la que debe figurar en las políticas de certificación y en los certificados digitales; p) Solicitar inmediatamente al ente licenciante la revocación de su certificado, o informarle la revocación del mismo, cuando existieren indicios de que los datos de creación de firma digital que utiliza hubiesen sido comprometidos o cuando el uso de los procedimientos de aplicación de los datos de verificación de firma digital en él contenidos hayan dejado de ser seguros; q) Informar inmediatamente al ente licenciante sobre cualquier cambio en los datos relativos a su licencia; r) Permitir el ingreso de los funcionarios autorizados de la autoridad de aplicación, del ente licenciante o de los auditores a su local operativo, poner a su disposición toda la información necesaria y proveer la asistencia del caso; s) Emplear personal idóneo que tenga los conocimientos específicos, la experiencia necesaria para proveer los servicios ofrecidos y en particular, competencia en materia de gestión, conocimientos técnicos en el ámbito de la firma digital y experiencia adecuada en los procedimientos de seguridad pertinentes; t) Someter a aprobación del ente licenciante el manual de procedimientos, el plan de seguridad y el de cese de actividades, así como el detalle de los componentes técnicos a utilizar; u) Constituir domicilio legal en la República Argentina; v) Disponer de recursos humanos y tecnológicos suficientes para operar de acuerdo a las exigencias establecidas en la presente ley y su reglamentación; w) Cumplir con toda otra obligación emergente de su calidad de titular de la licencia adjudicada por el ente licenciante."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "CAPITULO III",
+      "section": "22",
+      "title": " Cese del certificador",
+      "content": " Cese del certificador. El certificador licenciado cesa en tal calidad: a) Por decisión unilateral comunicada al ente licenciante; b) Por cancelación de su personería jurídica; c) Por cancelación de su licencia dispuesta por el ente licenciante. La autoridad de aplicación determinará los procedimientos de revocación aplicables en estos casos."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "CAPITULO III",
+      "section": "23",
+      "title": " Desconocimiento de la validez de un certificado digital",
+      "content": " Desconocimiento de la validez de un certificado digital. Un certificado digital no es válido si es utilizado: a) Para alguna finalidad diferente a los fines para los cuales fue extendido; b) Para operaciones que superen el valor máximo autorizado cuando corresponda; c) Una vez revocado. CAPITULO IV Del titular de un certificado digital"
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "CAPITULO IV",
+      "section": "24",
+      "title": " Derechos del titular de un certificado digital",
+      "content": " Derechos del titular de un certificado digital. El titular de un certificado digital tiene los siguientes derechos: a) A ser informado por el certificador licenciado, con carácter previo a la emisión del certificado digital, y utilizando un medio de comunicación sobre las condiciones precisas de utilización del certificado digital, sus características y efectos, la existencia de este sistema de licenciamiento y los procedimientos asociados. Esa información deberá darse por escrito en un lenguaje fácilmente comprensible. La parte pertinente de dicha información estará también disponible para terceros; b) A que el certificador licenciado emplee los elementos técnicos disponibles para brindar seguridad y confidencialidad a la información proporcionada por él, y a ser informado sobre ello; c) A ser informado, previamente a la emisión del certificado, del precio de los servicios de certificación, incluyendo cargos adicionales y formas de pago; d) A que el certificador licenciado le informe sobre su domicilio en la República Argentina, y sobre los medios a los que puede acudir para solicitar aclaraciones, dar cuenta del mal funcionamiento del sistema, o presentar sus reclamos; e) A que el certificador licenciado proporcione los servicios pactados, y a no recibir publicidad comercial de ningún tipo por intermedio del certificador licenciado."
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "CAPITULO IV",
+      "section": "25",
+      "title": " Obligaciones del titular del certificado digital",
+      "content": " Obligaciones del titular del certificado digital. Son obligaciones del titular de un certificado digital: a) Mantener el control exclusivo de sus datos de creación de firma digital, no compartirlos, e impedir su divulgación; b) Utilizar un dispositivo de creación de firma digital técnicamente confiable; c) Solicitar la revocación de su certificado al certificador licenciado ante cualquier circunstancia que pueda haber comprometido la privacidad de sus datos de creación de firma; d) Informar sin demora al certificador licenciado el cambio de alguno de los datos contenidos en el certificado digital que hubiera sido objeto de verificación. CAPITULO V De la organización institucional"
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "CAPITULO V",
+      "section": "26",
+      "title": " Infraestructura de Firma Digital",
+      "content": " Infraestructura de Firma Digital. Los certificados digitales regulados por esta ley deben ser emitidos o reconocidos, según lo establecido por el"
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "CAPITULO V",
+      "section": "27",
+      "title": " Sistema de Auditoría",
+      "content": " Sistema de Auditoría. La autoridad de aplicación, con el concurso de la Comisión Asesora para la Infraestructura de Firma Digital, diseñará un sistema de auditoría para evaluar la confiabilidad y calidad de los sistemas utilizados, la integridad, confidencialidad y disponibilidad de los datos, así como también el cumplimiento de las especificaciones del manual de procedimientos y los planes de seguridad y de contingencia aprobados por el ente licenciante."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "CAPITULO V",
+      "section": "28",
+      "title": " Comisión Asesora para la Infraestructura de Firma Digital",
+      "content": " Comisión Asesora para la Infraestructura de Firma Digital. Créase en el ámbito jurisdiccional de la Autoridad de Aplicación, la Comisión Asesora para la Infraestructura de Firma Digital. CAPITULO VI De la autoridad de aplicación"
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "CAPITULO VI",
+      "section": "29",
+      "title": " Autoridad de Aplicación",
+      "content": " Autoridad de Aplicación. La autoridad de aplicación de la presente ley será la Jefatura de Gabinete de Ministros."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "CAPITULO VI",
+      "section": "30",
+      "title": " Funciones",
+      "content": " Funciones. La autoridad de aplicación tiene las siguientes funciones: a) Dictar las normas reglamentarias y de aplicación de la presente; b) Establecer, previa recomendación de la Comisión Asesora para la Infraestructura de la Firma Digital, los estándares tecnológicos y operativos de la Infraestructura de Firma Digital; c) Determinar los efectos de la revocación de los certificados de los certificadores licenciados o del ente licenciante; d) Instrumentar acuerdos nacionales e internacionales a fin de otorgar validez jurídica a las firmas digitales creadas sobre la base de certificados emitidos por certificadores de otros países; e) Determinar las pautas de auditoría, incluyendo los dictámenes tipo que deban emitirse como conclusión de las revisiones; f) Actualizar los valores monetarios previstos en el régimen de sanciones de la presente ley; g) Determinar los niveles de licenciamiento; h) Otorgar o revocar las licencias a los certificadores licenciados y supervisar su actividad, según las exigencias instituidas por la reglamentación; i) Fiscalizar el cumplimiento de las normas legales y reglamentarias en lo referente a la actividad de los certificadores licenciados; j) Homologar los dispositivos de creación y verificación de firmas digitales, con ajuste a las normas y procedimientos establecidos por la reglamentación; k) Aplicar las sanciones previstas en la presente ley."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "CAPITULO VI",
+      "section": "31",
+      "title": " Obligaciones",
+      "content": " Obligaciones. En su calidad de titular de certificado digital, la autoridad de aplicación tiene las mismas obligaciones que los titulares de certificados y que los certificadores licenciados. En especial y en particular debe: a) Abstenerse de generar, exigir, o por cualquier otro medio tomar conocimiento o acceder, bajo ninguna circunstancia, a los datos utilizados para generar la firma digital de los certificadores licenciados; b) Mantener el control exclusivo de los datos utilizados para generar su propia firma digital e impedir su divulgación; c) Revocar su propio certificado frente al compromiso de la privacidad de los datos de creación de firma digital; d) Publicar en Internet o en la red de acceso público de transmisión o difusión de datos que la sustituya en el futuro, en forma permanente e ininterrumpida, los domicilios, números telefónicos y direcciones de Internet tanto de los certificadores licenciados como los propios y su certificado digital; e) Supervisar la ejecución del plan de cese de actividades de los certificadores licenciados que discontinúan sus funciones."
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "CAPITULO VI",
+      "section": "32",
+      "title": " Arancelamiento",
+      "content": " Arancelamiento. La autoridad de aplicación podrá cobrar un arancel de licenciamiento para cubrir su costo operativo y el de las auditorías realizadas por sí o por terceros contratados a tal efecto. CAPITULO VII Del sistema de auditoría"
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "CAPITULO VII",
+      "section": "33",
+      "title": " Sujetos a auditar",
+      "content": " Sujetos a auditar. El ente licenciante y los certificadores licenciados, deben ser auditados periódicamente, de acuerdo al sistema de auditoría que diseñe y apruebe la autoridad de aplicación. La autoridad de aplicación podrá implementar el sistema de auditoría por sí o por terceros habilitados a tal efecto. Las auditorías deben como mínimo evaluar la confiabilidad y calidad de los sistemas utilizados, la integridad, confidencialidad y, disponibilidad de los datos, así como también el cumplimiento de las especificaciones del manual de procedimientos y los planes de seguridad y, de contingencia aprobados por el ente licenciante."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "CAPITULO VII",
+      "section": "34",
+      "title": " Requisitos de habilitación",
+      "content": " Requisitos de habilitación. Podrán ser terceros habilitados para efectuar las auditorías las Universidades y organismos científicos y/o tecnológicos nacionales o provinciales, los Colegios y Consejos profesionales que acrediten experiencia profesional acorde en la materia. CAPITULO VIII De la Comisión Asesora para la Infraestructura de Firma Digital"
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "CAPITULO VIII",
+      "section": "35",
+      "title": " Integración y funcionamiento",
+      "content": " Integración y funcionamiento. La Comisión Asesora para la Infraestructura de Firma Digital estará integrada multidisciplinariamente por un máximo de 7 (siete) profesionales de carreras afines a la actividad de reconocida trayectoria y experiencia, provenientes de Organismos del Estado nacional, Universidades Nacionales y Provinciales, Cámaras, Colegios u otros entes representativos de profesionales. Los integrantes serán designados por el Poder Ejecutivo por un período de cinco (5) años renovables por única vez. Se reunirá como mínimo trimestralmente. Deberá expedirse prontamente a solicitud de la autoridad de aplicación y sus recomendaciones y disidencias se incluirán en las actas de la Comisión. Consultará periódicamente mediante audiencias públicas con las cámaras empresarias, los usuarios y las asociaciones de consumidores y mantendrá a la autoridad de aplicación regularmente informada de los resultados de dichas consultas."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "CAPITULO VIII",
+      "section": "36",
+      "title": " Funciones",
+      "content": " Funciones. La Comisión debe emitir recomendaciones por iniciativa propia o a solicitud de la autoridad de aplicación, sobre los siguientes aspectos: a) Estándares tecnológicos; b) Sistema de registro de toda la información relativa a la emisión de certificados digitales; c) Requisitos mínimos de información que se debe suministrar a los potenciales titulares de certificados digitales de los términos de las políticas de certificación; d) Metodología y requerimiento del resguardo físico de la información; e) Otros que le sean requeridos por la autoridad de aplicación. CAPITULO IX Responsabilidad"
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "CAPITULO IX",
+      "section": "37",
+      "title": " Convenio de partes",
+      "content": " Convenio de partes. La relación entre el certificador licenciado que emita un certificado digital y el titular de ese certificado se rige por el contrato que celebren entre ellos, sin perjuicio de las previsiones de la presente ley, y demás legislación vigente."
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "CAPITULO IX",
+      "section": "38",
+      "title": " Responsabilidad de los certificadores licenciados ante terceros",
+      "content": " Responsabilidad de los certificadores licenciados ante terceros. El certificador que emita un certificado digital o lo reconozca en los términos del"
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "CAPITULO IX",
+      "section": "39",
+      "title": " Limitaciones de responsabilidad",
+      "content": " Limitaciones de responsabilidad. Los certificadores licenciados no son responsables en los siguientes casos: a) Por los casos que se excluyan taxativamente en las condiciones de emisión y utilización de sus certificados y que no estén expresamente previstos en la ley; b) Por los daños y perjuicios que resulten del uso no autorizado de un certificado digital, si en las correspondientes condiciones de emisión y utilización de sus certificados constan las restricciones de su utilización; c) Por eventuales inexactitudes en el certificado que resulten de la información facilitada por el titular que, según lo dispuesto en las normas y en los manuales de procedimientos respectivos, deba ser objeto de verificación, siempre que el certificador pueda demostrar que ha tomado todas las medidas razonables. CAPITULO X Sanciones"
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "CAPITULO X",
+      "section": "40",
+      "title": " Procedimiento",
+      "content": " Procedimiento. La instrucción sumarial y la aplicación de sanciones por violación a disposiciones de la presente ley serán realizadas por el ente licenciante. Es aplicable la Ley de Procedimientos Administrativos 19.549 y sus normas reglamentarias."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "CAPITULO X",
+      "section": "41",
+      "title": " Sanciones",
+      "content": " Sanciones. El incumplimiento de las obligaciones establecidas en la presente ley para los certificadores licenciados dará lugar a la aplicación de las siguientes sanciones: a) Apercibimiento; b) Multa de pesos diez mil ($ 10.000) a pesos quinientos mil ($ 500.000); c) Caducidad de la licencia. Su gradación según reincidencia y/u oportunidad serán establecidas por la reglamentación. El pago de la sanción que aplique el ente licenciante no relevará al certificador licenciado de eventuales reclamos por daños y perjuicios causados a terceros y/o bienes de propiedad de éstos, como consecuencia de la ejecución del contrato que celebren y/o por el incumplimiento de las obligaciones asumidas conforme al mismo y/o la prestación del servicio."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "CAPITULO X",
+      "section": "42",
+      "title": " Apercibimiento",
+      "content": " Apercibimiento. Podrá aplicarse sanción de apercibimiento en los siguientes casos: a) Emisión de certificados sin contar con la totalidad de los datos requeridos, cuando su omisión no invalidare el certificado; b) No facilitar los datos requeridos por el ente licenciante en ejercicio de sus funciones; c) Cualquier otra infracción a la presente ley que no tenga una sanción mayor."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "CAPITULO X",
+      "section": "43",
+      "title": " Multa",
+      "content": " Multa. Podrá aplicarse sanción de multa en los siguientes casos: a) Incumplimiento de las obligaciones previstas en el"
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "parte de la autoridad de",
+      "section": "44",
+      "title": " Caducidad",
+      "content": " Caducidad. Podrá aplicarse la sanción de caducidad de la licencia en caso de: a) No tomar los debidos recaudos de seguridad en los servicios de certificación; b) Expedición de certificados falsos; c) Transferencia no autorizada o fraude en la titularidad de la licencia; d) Reincidencia en la comisión de infracciones que dieran lugar a la sanción de multa; e) Quiebra del titular. La sanción de caducidad inhabilita a la titular sancionada y a los integrantes de órganos directivos por el término de 10 años para ser titular de licencias."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "parte de la autoridad de",
+      "section": "45",
+      "title": " Recurribilidad",
+      "content": " Recurribilidad. Las sanciones aplicadas podrán ser recurridas ante los Tribunales Federales con competencia en lo Contencioso Administrativo correspondientes al domicilio de la entidad, una vez agotada la vía administrativa pertinente. La interposición de los recursos previstos en este capítulo tendrá efecto devolutivo."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "parte de la autoridad de",
+      "section": "46",
+      "title": " Jurisdicción",
+      "content": " Jurisdicción. En los conflictos entre particulares y certificadores licenciados es competente la Justicia en lo Civil y Comercial Federal. En los conflictos en que sea parte un organismo público certificador licenciado, es competente la Justicia en lo Contencioso-administrativo Federal. CAPITULO XI Disposiciones Complementarias"
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "CAPITULO XI",
+      "section": "47",
+      "title": " Utilización por el Estado Nacional",
+      "content": " Utilización por el Estado Nacional. El Estado nacional utilizará las tecnologías y previsiones de la presente ley en su ámbito interno y en relación con los administrados de acuerdo con las condiciones que se fijen reglamentariamente en cada uno de sus poderes."
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "CAPITULO XI",
+      "section": "48",
+      "title": " Implementación",
+      "content": " Implementación. El Estado nacional, dentro de las jurisdicciones y entidades comprendidas en el"
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "parte del interesado, propendiendo a la progresiva",
+      "section": "49",
+      "title": " Reglamentación",
+      "content": " Reglamentación. El Poder Ejecutivo deberá reglamentar esta ley en un plazo no mayor a los 180 (ciento ochenta) días de su publicación en el Boletín Oficial de la Nación."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "parte del interesado, propendiendo a la progresiva",
+      "section": "50",
+      "title": " Invitación",
+      "content": " Invitación. Invítase a las jurisdicciones provinciales a dictar los instrumentos legales pertinentes para adherir a la presente ley."
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "parte del interesado, propendiendo a la progresiva",
+      "section": "51",
+      "title": " Equiparación a los efectos del derecho penal",
+      "content": " Equiparación a los efectos del derecho penal. Incorpórase el siguiente texto como"
+    },
+    {
+      "provision_ref": "art78",
+      "chapter": "parte del interesado, propendiendo a la progresiva",
+      "section": "78",
+      "title": "(bis) del Código Penal",
+      "content": "(bis) del Código Penal: Los términos firma y suscripción comprenden la firma digital, la creación de una firma digital o firmar digitalmente. Los términos documento, instrumento privado y certificado comprenden el documento digital firmado digitalmente."
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "parte del interesado, propendiendo a la progresiva",
+      "section": "52",
+      "title": " Autorización al Poder Ejecutivo",
+      "content": " Autorización al Poder Ejecutivo. Autorízase al Poder Ejecutivo para que por la vía del"
+    },
+    {
+      "provision_ref": "art99",
+      "chapter": "parte del interesado, propendiendo a la progresiva",
+      "section": "99",
+      "title": "",
+      "content": ", inciso 2, de la Constitución Nacional actualice los contenidos del Anexo de la presente ley a fin de evitar su obsolescencia."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "parte del interesado, propendiendo a la progresiva",
+      "section": "53",
+      "title": " Comuníquese al Poder Ejecutivo",
+      "content": " Comuníquese al Poder Ejecutivo. DADA EN LA SALA DE SESIONES DEL CONGRESO ARGENTINO, EN BUENOS AIRES, A LOS CATORCE DIAS DEL MES DE NOVIEMBRE DEL AÑO DOS MIL UNO.  REGISTRADA BAJO EL Nº 25.506  RAFAEL PASCUAL.  EDUARDO MENEM.  Guillermo Aramburu.  Juan C. Oyarzún. ANEXO Información: conocimiento adquirido acerca de algo o alguien. Procedimiento de verificación: proceso utilizado para determinar la validez de una firma digital. Dicho proceso debe considerar al menos: a) que dicha firma digital ha sido creada durante el período de validez del certificado digital del firmante; b) que dicha firma digital ha sido creada utilizando los datos de creación de firma digital correspondientes a los datos de verificación de firma digital indicados en el certificado del firmante; c) la verificación de la autenticidad y la validez de los certificados involucrados. Datos de creación de firma digital: datos únicos, tales como códigos o claves criptográficas privadas, que el firmante utiliza para crear su firma digital. Datos de verificación de firma digital: datos únicos, tales como códigos o claves criptográficas públicas, que se utilizan para verificar la firma digital, la integridad del documento digital y la identidad del firmante. Dispositivo de creación de firma digital: dispositivo de hardware o software técnicamente confiable que permite firmar digitalmente. Dispositivo de verificación de firma digital: dispositivo de hardware o software técnicamente confiable que permite verificar la integridad del documento digital y la identidad del firmante. Políticas de certificación: reglas en las que se establecen los criterios de emisión y utilización de los certificados digitales. Técnicamente confiable: cualidad del conjunto de equipos de computación, software, protocolos de comunicación y de seguridad y procedimientos administrativos relacionados que cumplan los siguientes requisitos: 1. Resguardar contra la posibilidad de intrusión y/o uso no autorizado; 2. Asegurar la disponibilidad, confiabilidad, confidencialidad y correcto funcionamiento; 3. Ser apto para el desempeño de sus funciones específicas; 4. Cumplir las normas de seguridad apropiadas, acordes a estándares internacionales en la materia; 5. Cumplir con los estándares técnicos y de auditoría que establezca la Autoridad de Aplicación. Clave criptográfica privada: En un criptosistema asimétrico es aquella que se utiliza para firmar digitalmente. Clave criptográfica pública: En un criptosistema asimétrico es aquella que se utiliza para verificar una firma digital. Integridad: Condición que permite verificar que una información no ha sido alterada por medios desconocidos o no autorizados. Criptosistema asimétrico: Algoritmo que utiliza un par de claves, una clave privada para firmar digitalmente y su correspondiente clave pública para verificar dicha firma digital."
+    }
+  ],
+  "definitions": []
+}

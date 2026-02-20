@@ -1,0 +1,299 @@
+{
+  "id": "ley-27275",
+  "type": "statute",
+  "title": "Ley 27.275 — Derecho de Acceso a la Información Pública",
+  "title_en": "Access to Public Information Law (Law 27,275)",
+  "short_name": "Ley 27.275",
+  "status": "in_force",
+  "issued_date": "2016-09-14",
+  "in_force_date": "2017-09-29",
+  "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/265949/norma.htm",
+  "description": "Establishes the right of access to public information held by government entities. Created the AAIP (Agencia de Acceso a la Información Pública) as the enforcement authority, which also absorbed the data protection authority role.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "— Objeto",
+      "content": "— Objeto. La presente ley tiene por objeto garantizar el efectivo ejercicio del derecho de acceso a la información pública, promover la participación ciudadana y la transparencia de la gestión pública, y se funda en los siguientes principios: Presunción de publicidad: toda la información en poder del Estado se presume pública, salvo las excepciones previstas por esta ley. Transparencia y máxima divulgación: toda la información en poder, custodia o bajo control del sujeto obligado debe ser accesible para todas las personas. El acceso a la información pública sólo puede ser limitado cuando concurra alguna de las excepciones previstas en esta ley, de acuerdo con las necesidades de la sociedad democrática y republicana, proporcionales al interés que las justifican. Informalismo: las reglas de procedimiento para acceder a la información deben facilitar el ejercicio del derecho y su inobservancia no podrá constituir un obstáculo para ello. Los sujetos obligados no pueden fundar el rechazo de la solicitud de información en el incumplimiento de requisitos formales o de reglas de procedimiento. Máximo acceso: la información debe publicarse de forma completa, con el mayor nivel de desagregación posible y por la mayor cantidad de medios disponibles. Apertura: la información debe ser accesible en formatos electrónicos abiertos, que faciliten su procesamiento por medios automáticos que permitan su reutilización o su redistribución por parte de terceros. Disociación: en aquel caso en el que parte de la información se encuadre dentro de las excepciones taxativamente establecidas por esta ley, la información no exceptuada debe ser publicada en una versión del documento que tache, oculte o disocie aquellas partes sujetas a la excepción. No discriminación: se debe entregar información a todas las personas que lo soliciten, en condiciones de igualdad, excluyendo cualquier forma de discriminación y sin exigir expresión de causa o motivo para la solicitud. Máxima premura: la información debe ser publicada con la máxima celeridad y en tiempos compatibles con la preservación de su valor. Gratuidad: el acceso a la información debe ser gratuito, sin perjuicio de lo dispuesto en esta ley. Control: el cumplimiento de las normas que regulan el derecho de acceso a la información será objeto de fiscalización permanente. Las resoluciones que denieguen solicitudes de acceso a la información, como el silencio del sujeto obligado requerido, la ambigüedad o la inexactitud de su repuesta, podrán ser recurridas ante el órgano competente. Responsabilidad: el incumplimiento de las obligaciones que esta ley impone originará responsabilidades y dará lugar a las sanciones que correspondan. Alcance limitado de las excepciones: los límites al derecho de acceso a la información pública deben ser excepcionales, establecidos previamente conforme a lo estipulado en esta ley, y formulados en términos claros y precisos, quedando la responsabilidad de demostrar la validez de cualquier restricción al acceso a la información a cargo del sujeto al que se le requiere la información. In dubio pro petitor: la interpretación de las disposiciones de esta ley o de cualquier reglamentación del derecho de acceso a la información debe ser efectuada, en caso de duda, siempre en favor de la mayor vigencia y alcance del derecho a la información. Facilitación: ninguna autoridad pública puede negarse a indicar si un documento obra, o no, en su poder o negar la divulgación de un documento de conformidad con las excepciones contenidas en la presente ley, salvo que el daño causado al interés protegido sea mayor al interés público de obtener la información. Buena fe: para garantizar el efectivo ejercicio del acceso a la información, resulta esencial que los sujetos obligados actúen de buena fe, es decir, que interpreten la ley de manera tal que sirva para cumplir los fines perseguidos por el derecho de acceso, que aseguren la estricta aplicación del derecho, brinden los medios de asistencia necesarios a los solicitantes, promuevan la cultura de transparencia y actúen con diligencia, profesionalidad y lealtad institucional. TÍTULO I Derecho de acceso a la información pública Capítulo I Régimen general"
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Capítulo I",
+      "section": "2",
+      "title": "— Derecho de acceso a la información pública",
+      "content": "— Derecho de acceso a la información pública. El derecho de acceso a la información pública comprende la posibilidad de buscar, acceder, solicitar, recibir, copiar, analizar, reprocesar, reutilizar y redistribuir libremente la información bajo custodia de los sujetos obligados enumerados en el"
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Capítulo I",
+      "section": "7",
+      "title": "de la presente ley, con las únicas limitaciones y excepciones que establece esta norma",
+      "content": "de la presente ley, con las únicas limitaciones y excepciones que establece esta norma. Se presume pública toda información que generen, obtengan, transformen, controlen o custodien los sujetos obligados alcanzados por esta ley."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Capítulo I",
+      "section": "3",
+      "title": "— Definiciones",
+      "content": "— Definiciones . A los fines de la presente ley se entiende por: a) Información pública: todo tipo de dato contenido en documentos de cualquier formato que los sujetos obligados enumerados en el"
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Capítulo I",
+      "section": "4",
+      "title": "— Legitimación activa",
+      "content": "— Legitimación activa. Toda persona humana o jurídica, pública o privada, tiene derecho a solicitar y recibir información pública, no pudiendo exigirse al solicitante que motive la solicitud, que acredite derecho subjetivo o interés legítimo o que cuente con patrocinio letrado."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Capítulo I",
+      "section": "5",
+      "title": "— Entrega de información",
+      "content": "— Entrega de información. La información debe ser brindada en el estado en el que se encuentre al momento de efectuarse la solicitud, no estando obligado el sujeto requerido a procesarla o clasificarla. El Estado tiene la obligación de entregarla en formatos digitales abiertos, salvo casos excepcionales en que fuera de imposible cumplimiento o significara un esfuerzo estatal desmedido. Las excepciones las fijará la Agencia de Acceso a la Información Pública."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Capítulo I",
+      "section": "6",
+      "title": "— Gratuidad",
+      "content": "— Gratuidad. El acceso a la información pública es gratuito en tanto no se requiera su reproducción. Los costos de reproducción corren a cargo del solicitante."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Capítulo II",
+      "section": "8",
+      "title": "— Excepciones",
+      "content": "— Excepciones. Los sujetos obligados sólo podrán exceptuarse de proveer la información cuando se configure alguno de los siguientes supuestos: a) Información expresamente clasificada como reservada o confidencial o secreta, por razones de defensa o política exterior. La reserva en ningún caso podrá alcanzar a la información necesaria para evaluar la definición de las políticas de seguridad, defensa y de relaciones exteriores de la Nación; ni aquella otra cuya divulgación no represente un riesgo real e identificable de perjuicio significativo para un interés legítimo vinculado a tales políticas; b) Información que pudiera poner en peligro el correcto funcionamiento del sistema financiero o bancario; c) Secretos industriales, comerciales, financieros, científicos, técnicos o tecnológicos cuya revelación pudiera perjudicar el nivel de competitividad o lesionar los intereses del sujeto obligado; d) Información que comprometa los derechos o intereses legítimos de un tercero obtenida en carácter confidencial; e) Información en poder de la Unidad de Información Financiera encargada del análisis, tratamiento y transmisión de información tendiente a la prevención e investigación de la legitimación de activos provenientes de ilícitos; f) Información elaborada por los sujetos obligados dedicados a regular o supervisar instituciones financieras o preparada por terceros para ser utilizada por aquellos y que se refieran a exámenes de situación, evaluación de su sistema de operación o condición de su funcionamiento; g) Información elaborada por asesores jurídicos o abogados de la administración pública nacional cuya publicidad pudiera revelar la estrategia a adaptarse en la defensa o tramitación de una causa judicial o divulgare las técnicas o procedimientos de investigación de algún delito u otra irregularidad o cuando la información privare a una persona del pleno ejercicio de la garantía del debido proceso; h) Información protegida por el secreto profesional; i) Información que contenga datos personales y no pueda brindarse aplicando procedimientos de disociación, salvo que se cumpla con las condiciones de licitud previstas en la ley 25.326 de protección de datos personales y sus modificatorias; j) Información que pueda ocasionar un peligro a la vida o seguridad de una persona; k) Información de carácter judicial cuya divulgación estuviera vedada por otras leyes o por compromisos contraídos por la República Argentina en tratados internacionales; l) Información obtenida en investigaciones realizadas por los sujetos obligados que tuviera el carácter de reservada y cuya divulgación pudiera frustrar el éxito de una investigación; m) Información correspondiente a una sociedad anónima sujeta al régimen de oferta pública. Las excepciones contenidas en el presente artículo no serán aplicables en casos de graves violaciones de derechos humanos, genocidio, crímenes de guerra o delitos de lesa humanidad. Capítulo III Solicitud de información y vías de reclamo"
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Capítulo III",
+      "section": "9",
+      "title": "— Solicitud de información",
+      "content": "— Solicitud de información. La solicitud de información debe ser presentada ante el sujeto obligado que la posea o se presuma que la posee, quien la remitirá al responsable de acceso a la información pública, en los términos de lo previsto en el"
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "Capítulo III",
+      "section": "30",
+      "title": "de la presente ley",
+      "content": "de la presente ley. Se podrá realizar por escrito o por medios electrónicos y sin ninguna formalidad a excepción de la identidad del solicitante, la identificación clara de la información que se solicita y los datos de contacto del solicitante, a los fines de enviarle la información solicitada o anunciarle que está disponible. El sujeto que recibiere la solicitud de información le entregará o remitirá al solicitante una constancia del trámite."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "Capítulo III",
+      "section": "10",
+      "title": "— Tramitación",
+      "content": "— Tramitación. Si la solicitud se refiere a información pública que no obre en poder del sujeto al que se dirige, éste la remitirá, dentro del plazo improrrogable de cinco (5) días, computado desde la presentación, a quien la posea, si lo conociera, o en caso contrario a la Agencia de Acceso a la Información Pública, e informará de esta circunstancia al solicitante."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "Capítulo III",
+      "section": "11",
+      "title": "— Plazos",
+      "content": "— Plazos. Toda solicitud de información pública requerida en los términos de la presente ley debe ser satisfecha en un plazo no mayor de quince (15) días hábiles. El plazo se podrá prorrogar en forma excepcional por otros quince (15) días hábiles de mediar circunstancias que hagan razonablemente difícil reunir la información solicitada. En su caso, el sujeto requerido debe comunicar fehacientemente, por acto fundado y antes del vencimiento del plazo, las razones por las que hace uso de tal prórroga. El peticionante podrá requerir, por razones fundadas, la reducción del plazo para responder y satisfacer su requerimiento."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "Capítulo III",
+      "section": "12",
+      "title": "— Información parcial",
+      "content": "— Información parcial. Los sujetos obligados deben brindar la información solicitada en forma completa. Cuando exista un documento que contenga en forma parcial información cuyo acceso esté limitado en los términos del"
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "Capítulo III",
+      "section": "13",
+      "title": "— Denegatoria",
+      "content": "— Denegatoria . El sujeto requerido sólo podrá negarse a brindar la información objeto de la solicitud, por acto fundado, si se verificara que la misma no existe y que no está obligado legalmente a producirla o que está incluida dentro de alguna de las excepciones previstas en el"
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "Capítulo III",
+      "section": "14",
+      "title": "de la presente ley",
+      "content": "de la presente ley."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "Capítulo III",
+      "section": "15",
+      "title": "",
+      "content": "de la presente ley, será sustitutivo de los recursos previstos en la Ley Nacional de Procedimientos Administrativos, 19.549, y en el decreto 1.759 del 3 de abril de 1972 (t.o. 1991). El reclamo promovido mediante acción judicial tramitará por la vía del amparo y deberá ser interpuesto dentro de los cuarenta (40) días hábiles desde que fuera notificada la resolución denegatoria de la solicitud o desde que venciera el plazo para responderla, o bien, a partir de la verificación de cualquier otro incumplimiento de las disposiciones de esta ley. No serán de aplicación los supuestos de inadmisibilidad formal previstos en el"
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Capítulo III",
+      "section": "16",
+      "title": "— Requisitos formales",
+      "content": "— Requisitos formales. El reclamo por incumplimiento será presentado por escrito, indicando el nombre completo, apellido y domicilio del solicitante, el sujeto obligado ante el cual fue dirigida la solicitud de información y la fecha de la presentación. Asimismo, será necesario acompañar copia de la solicitud de información presentada y, en caso de existir, la respuesta que hubiese recibido del sujeto obligado."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Capítulo III",
+      "section": "17",
+      "title": "— Resolución del reclamo interpuesto",
+      "content": "— Resolución del reclamo interpuesto. Dentro de los treinta (30) días hábiles contados desde la recepción del reclamo por incumplimiento, la Agencia de Acceso a la Información Pública, deberá decidir: a) Rechazar fundadamente el reclamo, siendo motivos para dicha resolución: I. Que se hubiese presentado fuera del plazo previsto; II. Que con anterioridad hubiera resuelto la misma cuestión en relación al mismo requirente y a la misma información; III. Que el sujeto requerido no sea un sujeto obligado por la presente ley; IV. Que se trate de información contemplada en alguna o algunas de las excepciones establecidas en el"
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "Capítulo III",
+      "section": "18",
+      "title": "— Responsabilidades",
+      "content": "— Responsabilidades. El funcionario público o agente responsable que en forma arbitraria obstruya el acceso del solicitante a la información pública requerida, o la suministre en forma incompleta u obstaculice de cualquier modo el cumplimiento de esta ley, incurre en falta grave sin perjuicio de las responsabilidades administrativas, patrimoniales y penales que pudieran caberle conforme lo previsto en las normas vigentes. Capítulo IV Agencia de Acceso a la Información Pública"
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "Capítulo IV",
+      "section": "19",
+      "title": "— Agencia de Acceso a la Información Pública",
+      "content": "— Agencia de Acceso a la Información Pública . Créase la Agencia de Acceso a la Información Pública como ente autárquico que funcionará con autonomía funcional en el ámbito del Poder Ejecutivo nacional. La Agencia de Acceso a la Información Pública debe velar por el cumplimiento de los principios y procedimientos establecidos en la presente ley, garantizar el efectivo ejercicio del derecho de acceso a la información pública y promover medidas de transparencia activa."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "Capítulo IV",
+      "section": "20",
+      "title": "— Director de la Agencia de Acceso a la Información Pública",
+      "content": "— Director de la Agencia de Acceso a la Información Pública . La Agencia de Acceso a la Información Pública estará a cargo de un director que durará cinco (5) años en el cargo con posibilidad de ser reelegido por una única vez. El director será designado por el Poder Ejecutivo nacional mediante un procedimiento de selección público, abierto y transparente que garantice la idoneidad del candidato."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "Capítulo IV",
+      "section": "21",
+      "title": "— Procedimiento de selección del director",
+      "content": "— Procedimiento de selección del director . El procedimiento de selección del director de la Agencia de Acceso a la Información Pública se llevará a cabo de conformidad con lo dispuesto a continuación: a) El Poder Ejecutivo nacional propondrá una (1) persona y publicará el nombre, apellido y los antecedentes curriculares de la misma en el Boletín Oficial y en dos (2) diarios de circulación nacional, durante tres (3) días; b) El candidato deberá presentar una declaración jurada conforme la normativa prevista en la Ley de Ética en el Ejercicio de la Función Pública, 25.188, y su reglamentación; c) Se requerirá a la Administración Federal de Ingresos Públicos (AFIP) un informe relativo al cumplimiento de las obligaciones impositivas del candidato; d) Se celebrará una audiencia pública a los efectos de evaluar las observaciones previstas de acuerdo con lo que establezca la reglamentación; e) Los ciudadanos, las organizaciones no gubernamentales, los colegios, las asociaciones profesionales y las entidades académicas podrán, en el plazo de quince (15) días contados desde la última publicación en el Boletín Oficial prevista en el inciso a) del presente artículo, presentar al organismo a cargo de la organización de la audiencia pública, por escrito y de modo fundado y documentado, observaciones respecto de los candidatos. Sin perjuicio de las presentaciones que se realicen en el mismo plazo podrá requerirse opinión a organizaciones de relevancia en el ámbito profesional, judicial y académico a los fines de su valoración; f) Dentro de los quince (15) días, contados desde el vencimiento del plazo establecido en el inciso e) del presente artículo, se deberá celebrar una audiencia pública para la evaluación de las observaciones presentadas. Con posterioridad y en un plazo de siete (7) días de celebrada la audiencia, el Poder Ejecutivo nacional tomará la decisión de confirmar o retirar la candidatura de la persona propuesta, debiendo en este último caso proponer a un nuevo candidato y reiniciar el procedimiento de selección."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "Capítulo IV",
+      "section": "22",
+      "title": "— Rango y jerarquía del director",
+      "content": "— Rango y jerarquía del director. El director a cargo de la Agencia de Acceso a la Información Pública tendrá rango y jerarquía de secretario."
+    },
+    {
+      "provision_ref": "art23",
+      "chapter": "Capítulo IV",
+      "section": "23",
+      "title": "— Requisitos e incompatibilidades",
+      "content": "— Requisitos e incompatibilidades . Para ser designado director de la Agencia de Acceso a la Información Pública se requiere ser ciudadano argentino. Asimismo, deberán presentarse antecedentes que acrediten idoneidad para el ejercicio de la función. El ejercicio de la función requiere dedicación exclusiva y resulta incompatible con cualquier otra actividad pública o privada, excepto la docencia a tiempo parcial. Está vedada cualquier actividad partidaria mientras dure el ejercicio de la función. Ningún funcionario a cargo de la Agencia de Acceso a la Información Pública podrá tener intereses o vínculos con los asuntos bajo su órbita en las condiciones establecidas por la Ley de Ética en el Ejercicio de la Función Pública, 25.188, sus modificaciones y su reglamentación. El director propuesto no podrá haber desempeñado cargos electivos o partidarios en los últimos cinco (5) años previos a la designación."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "Capítulo IV",
+      "section": "24",
+      "title": "— Competencias y funciones",
+      "content": "— Competencias y funciones . Son competencias y funciones de la Agencia de Acceso a la Información Pública: a) Diseñar su estructura orgánica de funcionamiento y designar a su planta de agentes; b) Preparar su presupuesto anual; c) Redactar y aprobar el Reglamento de Acceso a la Información Pública aplicable a todos los sujetos obligados; d) Implementar una plataforma tecnológica para la gestión de las solicitudes de información y sus correspondientes respuestas; e) Requerir a los sujetos obligados que modifiquen o adecuen su organización, procedimientos, sistemas de atención al público y recepción de correspondencia a la normativa aplicable a los fines de cumplir con el objeto de la presente ley; f) Proveer un canal de comunicación con la ciudadanía con el objeto de prestar asesoramiento sobre las solicitudes de información pública y, en particular, colaborando en el direccionamiento del pedido y refinamiento de la búsqueda; g) Coordinar el trabajo de los responsables de acceso a la información pública designados por cada uno de los sujetos obligados, en los términos de lo previsto en el"
+    },
+    {
+      "provision_ref": "art25",
+      "chapter": "Capítulo IV",
+      "section": "25",
+      "title": "— Personal de la Agencia de Acceso a la Información Pública",
+      "content": "— Personal de la Agencia de Acceso a la Información Pública . La Agencia de Acceso a la Información Pública contará con el personal técnico y administrativo que establezca la ley de presupuesto general de la administración nacional."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "Capítulo IV",
+      "section": "26",
+      "title": "— Cese del director de la Agencia de Acceso a la Información Pública",
+      "content": "— Cese del director de la Agencia de Acceso a la Información Pública. El funcionario a cargo de la Agencia de Acceso a la Información Pública cesará de pleno derecho en sus funciones de mediar alguna de las siguientes circunstancias: a) Renuncia; b) Vencimiento del mandato; c) Fallecimiento; d) Estar comprendido en alguna situación que le genere incompatibilidad o inhabilidad."
+    },
+    {
+      "provision_ref": "art27",
+      "chapter": "Capítulo IV",
+      "section": "27",
+      "title": "— Remoción del director de la Agencia de Acceso a la Información Pública",
+      "content": "— Remoción del director de la Agencia de Acceso a la Información Pública . El funcionario a cargo de la Agencia de Acceso a la Información Pública podrá ser removido por mal desempeño, por delito en el ejercicio de sus funciones o por crímenes comunes. El Poder Ejecutivo nacional llevará adelante el procedimiento de remoción del director de la Agencia de Acceso a la Información Pública, dándole intervención a una comisión bicameral del Honorable Congreso de la Nación, que será presidida por el presidente del Senado y estará integrada por los presidentes de las comisiones de Asuntos Constitucionales y de Derechos y Garantías de la Honorable Cámara de Senadores de la Nación y las de Asuntos Constitucionales y de Libertad de Expresión de la Honorable Cámara de Diputados de la Nación, quien emitirá un dictamen vinculante. Producida la vacante, deberá realizarse el procedimiento establecido en el"
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "Capítulo IV",
+      "section": "28",
+      "title": "",
+      "content": "— Organismos de acceso a la información pública en el Poder Legislativo, en el Poder Judicial y en los Ministerios Públicos. En un plazo máximo de noventa (90) días contado desde la publicación de la presente ley en el Boletín Oficial, el Poder Legislativo, el Poder Judicial de la Nación, el Ministerio Público Fiscal de la Nación, el Ministerio Público de la Defensa y el Consejo de la Magistratura crearán, cada uno de ellos, un organismo con autonomía funcional y con competencias y funciones idénticas a las de la Agencia de Acceso a la Información Pública previstas en el"
+    },
+    {
+      "provision_ref": "art29",
+      "section": "29",
+      "title": "— Consejo Federal para la Transparencia",
+      "content": "— Consejo Federal para la Transparencia . Créase el Consejo Federal para la Transparencia, como organismo interjurisdiccional de carácter permanente, que tendrá por objeto la cooperación técnica y la concertación de políticas en materia de transparencia y acceso a la información pública. El Consejo Federal para la Transparencia tendrá su sede en la Agencia de Acceso a la Información Pública, de la cual recibirá apoyo administrativo y técnico para su funcionamiento. El Consejo Federal para la Transparencia estará integrado por un (1) representante de cada una de las provincias y un (1) representante de la Ciudad Autónoma de Buenos Aires, que deberán ser los funcionarios de más alto rango en la materia de sus respectivas jurisdicciones. El Consejo Federal para la Transparencia será presidido por el director de la Agencia de Acceso a la Información Pública, quien convocará semestralmente a reuniones en donde se evaluará el grado de avance en materia de transparencia activa y acceso a la información en cada una de las jurisdicciones. Capítulo V Responsables de acceso a la información pública"
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "Capítulo V",
+      "section": "31",
+      "title": "— Funciones de los responsables de acceso a la información pública",
+      "content": "— Funciones de los responsables de acceso a la información pública. Serán funciones de los responsables de acceso a la información pública, en el ámbito de sus respectivas jurisdicciones: a) Recibir y dar tramitación a las solicitudes de acceso a la información pública, remitiendo la misma al funcionario pertinente; b) Realizar el seguimiento y control de la correcta tramitación de las solicitudes de acceso a la información pública; c) Llevar un registro de las solicitudes de acceso a la información pública; d) Promover la implementación de las resoluciones elaboradas por la Agencia de Acceso a la Información Pública; e) Brindar asistencia a los solicitantes en la elaboración de los pedidos de acceso a la información pública y orientarlos sobre las dependencias o entidades que pudieran poseer la información requerida; f) Promover prácticas de transparencia en la gestión pública y de publicación de la información; g) Elaborar informes mensuales para ser remitidos a la Agencia de Acceso a la Información Pública o a los organismos detallados en el"
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "TÍTULO II",
+      "section": "32",
+      "title": "— Transparencia activa",
+      "content": "— Transparencia activa. Los sujetos obligados enumerados en el"
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "parte de",
+      "section": "33",
+      "title": "— Régimen más amplio de publicidad",
+      "content": "— Régimen más amplio de publicidad. Las obligaciones de transparencia activa contenidas en el"
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "parte de",
+      "section": "34",
+      "title": "— Excepciones a la transparencia activa",
+      "content": "— Excepciones a la transparencia activa. A los fines del cumplimiento de lo previsto en el"
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "TÍTULO III",
+      "section": "35",
+      "title": "— Presupuesto",
+      "content": "— Presupuesto . Autorízase al Poder Ejecutivo nacional a realizar las modificaciones e incorporaciones en la ley de presupuesto de gastos y recursos de la administración nacional para el ejercicio fiscal vigente en los aspectos que se consideren necesarios para la implementación de la presente ley. Deberá preverse en el presupuesto del año inmediato subsiguiente la incorporación de los recursos necesarios para el correcto cumplimiento de las funciones de la Agencia de Acceso a la Información Pública."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "TÍTULO III",
+      "section": "36",
+      "title": "— Adhesión",
+      "content": "— Adhesión. Invítase a las provincias y a la Ciudad Autónoma de Buenos Aires a adherir a las disposiciones de la presente ley."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "TÍTULO III",
+      "section": "37",
+      "title": "— Reglamentación",
+      "content": "— Reglamentación. El Poder Ejecutivo nacional reglamentará la presente ley dentro de los noventa (90) días desde su promulgación."
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "TÍTULO III",
+      "section": "38",
+      "title": "— Cláusula transitoria 1",
+      "content": "— Cláusula transitoria 1. Las disposiciones de la presente ley entrarán en vigencia al año de su publicación en el Boletín Oficial. Los sujetos obligados contarán con el plazo máximo de un (1) año desde la publicación de la presente ley en el Boletín Oficial, para adaptarse a las obligaciones contenidas en la misma. En dicho plazo, conservarán plena vigencia el decreto 1172, del 3 de diciembre de 2003, y el decreto 117, del 12 de enero de 2016, así como toda otra norma que regule la publicidad de los actos de gobierno y el derecho de acceso a la información pública."
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "TÍTULO III",
+      "section": "39",
+      "title": "— Cláusula transitoria 2",
+      "content": "— Cláusula transitoria 2 . Hasta tanto los sujetos pasivos enumerados en el"
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "TÍTULO III",
+      "section": "40",
+      "title": "— Comuníquese al Poder Ejecutivo nacional",
+      "content": "— Comuníquese al Poder Ejecutivo nacional. DADA EN LA SALA DE SESIONES DEL CONGRESO ARGENTINO, EN BUENOS AIRES, A LOS CATORCE DÍAS DEL MES DE SEPTIEMBRE DEL AÑO DOS MIL DIECISÉIS. — REGISTRADO BAJO EL N° 27275 — EMILIO MONZÓ. — FEDERICO PINEDO. — Eugenio Inchausti. — Juan P. Tunessi."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Información pública",
+      "definition": "todo tipo de dato contenido en documentos de cualquier formato que los sujetos obligados enumerados en el",
+      "source_provision": "art3"
+    }
+  ]
+}
