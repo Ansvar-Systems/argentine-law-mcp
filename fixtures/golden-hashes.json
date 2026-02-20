@@ -1,0 +1,56 @@
+{
+  "$schema": "./golden-hashes.schema.json",
+  "version": "1.0",
+  "mcp_name": "Argentine Law MCP",
+  "jurisdiction": "AR",
+  "provisions": [
+    {
+      "id": "ar-hash-001",
+      "description": "Constitution of Argentina (1994 reform), Article 43 -- habeas data, constitutional right to access, rectify, and suppress personal data in public and private registries",
+      "upstream_url": "https://www.infoleg.gob.ar/infolegInternet/anexos/0-4999/804/norma.htm",
+      "selector_hint": "Articulo 43 - Habeas data",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "datos personales"
+    },
+    {
+      "id": "ar-hash-002",
+      "description": "Ley 25.326 (Personal Data Protection Law 2000), Article 1 -- object and scope of protection of personal data in databases",
+      "upstream_url": "https://www.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm",
+      "selector_hint": "Articulo 1 - Objeto",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "datos personales"
+    },
+    {
+      "id": "ar-hash-003",
+      "description": "Ley 26.388 (Cybercrime 2008), Article 1 -- amendments to the Penal Code incorporating computer crimes",
+      "upstream_url": "https://www.infoleg.gob.ar/infolegInternet/anexos/140000-144999/141790/norma.htm",
+      "selector_hint": "Articulo 1 - Modificacion del Codigo Penal",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "Codigo Penal"
+    },
+    {
+      "id": "ar-hash-004",
+      "description": "Ley 19.550 (Ley General de Sociedades), Article 1 -- concept of a commercial company and types recognized",
+      "upstream_url": "https://www.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25553/norma.htm",
+      "selector_hint": "Articulo 1 - Concepto de sociedad",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "sociedad"
+    },
+    {
+      "id": "ar-hash-005",
+      "description": "Ley 25.506 (Digital Signature 2001), Article 1 -- recognition and legal validity of digital signatures",
+      "upstream_url": "https://www.infoleg.gob.ar/infolegInternet/anexos/70000-74999/70749/norma.htm",
+      "selector_hint": "Articulo 1 - Reconocimiento de la firma digital",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "firma digital"
+    },
+    {
+      "id": "ar-hash-006",
+      "description": "Ley 24.240 (Consumer Protection), Article 1 -- object and scope of consumer protection",
+      "upstream_url": "https://www.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/norma.htm",
+      "selector_hint": "Articulo 1 - Objeto",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "consumidor"
+    }
+  ]
+}

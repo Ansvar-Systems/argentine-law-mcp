@@ -1,0 +1,183 @@
+{
+  "$schema": "./golden-tests.schema.json",
+  "version": "1.0",
+  "mcp_name": "Argentine Law MCP",
+  "description": "Golden contract tests for the Argentine Law MCP covering data protection (Ley 25.326), cybercrime, digital signature, companies, and consumer protection legislation",
+  "tests": [
+    {
+      "id": "ar-001",
+      "category": "article_retrieval",
+      "description": "Retrieve Article 1 of Ley 25.326 (Personal Data Protection Law 2000) -- object and scope of data protection",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Ley 25.326 de Proteccion de los Datos Personales",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["datos personales", "proteccion", "derecho"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "ar-002",
+      "category": "article_retrieval",
+      "description": "Retrieve Article 1 of Ley 26.388 (Cybercrime 2008) -- amendments to the Penal Code for computer crimes",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Ley 26.388",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["Codigo Penal", "informatico", "delito"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "ar-003",
+      "category": "article_retrieval",
+      "description": "Retrieve Article 1 of Ley 25.506 (Digital Signature 2001) -- object and recognition of digital signatures",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Ley 25.506 de Firma Digital",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["firma digital", "firma electronica", "documento"],
+        "fields_present": ["text"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "ar-004",
+      "category": "article_retrieval",
+      "description": "Retrieve Article 1 of Ley 19.550 (Ley General de Sociedades) -- types of commercial companies recognized",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Ley 19.550 General de Sociedades",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["sociedad", "sociedades"],
+        "fields_present": ["text"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "ar-005",
+      "category": "search",
+      "description": "Full-text search for 'datos personales' returns Ley 25.326 provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "datos personales"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Ley 25.326", "datos personales", "proteccion", "titular"]
+      }
+    },
+    {
+      "id": "ar-006",
+      "category": "search",
+      "description": "Full-text search for 'delito informatico' returns Ley 26.388 cybercrime provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "delito informatico"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Ley 26.388", "informatico", "delito", "Codigo Penal"]
+      }
+    },
+    {
+      "id": "ar-007",
+      "category": "search",
+      "description": "Full-text search for 'firma digital' returns Ley 25.506 digital signature provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "firma digital"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Ley 25.506", "firma digital", "firma electronica", "certificado"]
+      }
+    },
+    {
+      "id": "ar-008",
+      "category": "citation_roundtrip",
+      "description": "Citation for Ley 25.326 Article 1 includes infoleg.gob.ar URL or Boletin Oficial reference",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Ley 25.326 de Proteccion de los Datos Personales",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "citation_url_pattern": "(infoleg\\.gob\\.ar|boletin oficial)",
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "ar-009",
+      "category": "citation_roundtrip",
+      "description": "Citation for Ley 24.240 (Consumer Protection) Article 1 includes official source reference",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Ley 24.240 de Defensa del Consumidor",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "fields_present": ["text"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "ar-010",
+      "category": "eu_cross_reference",
+      "description": "Ley 25.326 cross-reference to EU Data Protection Directive/GDPR -- Argentina has EU adequacy decision",
+      "tool": "get_provision_eu_basis",
+      "input": {
+        "law_identifier": "Ley 25.326 de Proteccion de los Datos Personales"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["GDPR", "General Data Protection Regulation", "2016/679", "Directive 95/46", "adequacy", "data protection"]
+      }
+    },
+    {
+      "id": "ar-011",
+      "category": "negative_test",
+      "description": "Non-existent Argentine law returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Ley 99.999 de Proteccion de Inteligencia Artificial Ficticia",
+        "article": "1"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    },
+    {
+      "id": "ar-012",
+      "category": "negative_test",
+      "description": "Malformed article number returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Ley 25.326 de Proteccion de los Datos Personales",
+        "article": "999ZZZ-INVALID"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    }
+  ]
+}

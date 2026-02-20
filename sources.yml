@@ -1,0 +1,90 @@
+# sources.yml
+schema_version: "1.0"
+mcp_name: "Argentine Law MCP"
+jurisdiction: "AR"
+
+sources:
+  - name: "InfoLEG (Informacion Legislativa y Documental)"
+    authority: "Ministerio de Justicia y Derechos Humanos de la Nacion, Argentina"
+    official_portal: "https://www.infoleg.gob.ar"
+    canonical_identifier: "InfoLEG ID number (e.g., infolegInternet/anexos/60000-64999/64790/norma.htm for Ley 25.326)"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A (no public API; legislation available as HTML with structured InfoLEG identifiers)"
+    update_frequency: "on_change"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Public Data"
+      url: "https://www.infoleg.gob.ar"
+      summary: "InfoLEG is the comprehensive, free, government-maintained legislative information portal; Argentine federal legislation is public domain as government publication; the portal provides consolidated texts with all amendments"
+    coverage:
+      scope: "All Argentine federal laws (leyes nacionales) including Ley 25.326 (Personal Data Protection Law 2000), Ley 26.388 (Cybercrime 2008), Ley 25.506 (Digital Signature 2001), Ley 19.550 (Ley General de Sociedades - Companies), Ley 24.240 (Consumer Protection), Ley 27.078 (Argentina Digital - telecommunications), decrees, resolutions, and regulatory dispositions"
+      limitations: "Provincial legislation not comprehensively covered; some very recent modifications may have a short delay; historical regulatory dispositions from before digitization may be incomplete; InfoLEG identifiers are internal and not standardized URIs"
+    languages:
+      - "es"
+
+  - name: "SAIJ (Sistema Argentino de Informacion Juridica)"
+    authority: "Ministerio de Justicia y Derechos Humanos de la Nacion, Argentina"
+    official_portal: "https://www.saij.gob.ar"
+    canonical_identifier: "SAIJ document ID"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A"
+    update_frequency: "on_change"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Public Data"
+      url: "https://www.saij.gob.ar"
+      summary: "SAIJ provides free access to Argentine legal information including legislation, case law (jurisprudencia), and legal doctrine; government-maintained and publicly accessible"
+    coverage:
+      scope: "Federal and provincial legislation, Supreme Court (CSJN) and lower court decisions, legal doctrine summaries, and regulatory instruments; provides cross-references between related norms"
+      limitations: "Search functionality can be inconsistent; some provincial coverage is limited; case law indexing may lag behind official publication"
+    languages:
+      - "es"
+
+  - name: "AAIP (Agencia de Acceso a la Informacion Publica)"
+    authority: "Agencia de Acceso a la Informacion Publica"
+    official_portal: "https://www.argentina.gob.ar/aaip"
+    canonical_identifier: "N/A"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A"
+    update_frequency: "on_change"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Public Data"
+      url: "https://www.argentina.gob.ar/aaip"
+      summary: "AAIP publications including dispositions, resolutions, and guidance are public government documents; AAIP is the successor to the former Direccion Nacional de Proteccion de Datos Personales"
+    coverage:
+      scope: "Ley 25.326 implementing regulations, AAIP dispositions and resolutions, data protection guidance, international data transfer authorization decisions, database registration requirements, and cross-border adequacy assessments"
+      limitations: "AAIP was created in 2017 and absorbed the former data protection directorate; historical dispositions from the predecessor body may not be fully digitized; enforcement decisions are not always systematically published online"
+    languages:
+      - "es"
+
+data_freshness:
+  automated_checks: true
+  check_frequency: "weekly"
+  last_verified: "PENDING_FIRST_INGEST"
+
+# Notes:
+# - Argentina has one of the oldest data protection laws in Latin America: Ley 25.326
+#   (Ley de Proteccion de los Datos Personales), enacted in 2000
+# - Argentina holds an EU adequacy decision (Decision 2003/490/EC), making it one of
+#   the few non-EU countries recognized as providing adequate data protection; this
+#   decision predates GDPR and its continued validity is subject to review
+# - The Argentine Constitution (1994 reform) includes habeas data in Article 43,
+#   providing constitutional-level protection for personal data
+# - A comprehensive reform bill to replace Ley 25.326 has been pending for several
+#   years, intended to align with GDPR standards; as of 2025, the reform has not
+#   been enacted
+# - AAIP (Agencia de Acceso a la Informacion Publica) is the data protection
+#   authority, succeeding the former Direccion Nacional de Proteccion de Datos
+#   Personales (DNPDP) in 2017
+# - Ley 26.388 (2008) added cybercrime provisions to the Argentine Penal Code,
+#   covering unauthorized access, data damage, and interception
+# - Ley 25.506 (2001) established the legal framework for digital signatures,
+#   making Argentina an early adopter of electronic signature legislation
+# - Argentina is a civil law jurisdiction; the Boletin Oficial (B.O.) is the
+#   official gazette where all laws must be published to take effect
+# - The legal language is Spanish; there are no official English translations
+# - InfoLEG (infoleg.gob.ar) is considered the most comprehensive and reliable
+#   source for Argentine federal legislation, maintained by the Ministry of Justice
+# - Argentina is a member of Mercosur and participates in the Ibero-American
+#   Data Protection Network (RIPD)
