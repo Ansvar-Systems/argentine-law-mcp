@@ -2,7 +2,7 @@
   "name": "@ansvar/argentine-law-mcp",
   "version": "1.0.1",
   "mcpName": "eu.ansvar/argentine-law-mcp",
-  "description": "Argentine federal law database covering data protection (Ley 25.326), cybercrime, digital signature, companies, and consumer protection with Spanish full-text search",
+  "description": "Complete Argentine federal law database — 22,800+ leyes nacionales from InfoLEG with Spanish full-text search, covering data protection (Ley 25.326), cybercrime, digital signature, companies, consumer protection, and the full national legislative corpus",
   "author": "Ansvar Systems <hello@ansvar.eu>",
   "license": "Apache-2.0",
   "repository": {
@@ -44,6 +44,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
+    "census": "node --import tsx scripts/census.ts",
     "ingest": "node --import tsx scripts/ingest.ts",
     "test:contract": "vitest run __tests__/contract/",
     "drift:detect": "node --import tsx scripts/drift-detect.ts",

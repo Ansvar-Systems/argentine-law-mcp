@@ -8,3 +8,6 @@ dist/
 coverage/
 .vercel/
 .DS_Store
+data/source/
+data/seed/
+data/.census-checkpoint.json
