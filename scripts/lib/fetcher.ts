@@ -20,7 +20,8 @@
  */
 
 const USER_AGENT = 'Argentine-Law-MCP/1.0 (https://github.com/Ansvar-Systems/argentine-law-mcp; hello@ansvar.ai)';
-const MIN_DELAY_MS = 500;
+const MIN_DELAY_MS = 100;
+const CONCURRENCY = 5;
 
 let lastRequestTime = 0;
 
@@ -31,6 +32,28 @@ async function rateLimit(): Promise<void> {
     await new Promise(resolve => setTimeout(resolve, MIN_DELAY_MS - elapsed));
   }
   lastRequestTime = Date.now();
+}
+
+/**
+ * Run an array of async tasks with bounded concurrency.
+ */
+export async function runConcurrent<T, R>(
+  items: T[],
+  fn: (item: T) => Promise<R>,
+  concurrency = CONCURRENCY,
+): Promise<R[]> {
+  const results: R[] = new Array(items.length);
+  let idx = 0;
+
+  async function worker(): Promise<void> {
+    while (idx < items.length) {
+      const i = idx++;
+      results[i] = await fn(items[i]);
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, () => worker()));
+  return results;
 }
 
 export interface FetchResult {

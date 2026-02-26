@@ -26,7 +26,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
-import { fetchWithRateLimit } from './lib/fetcher.js';
+import { fetchWithRateLimit, runConcurrent } from './lib/fetcher.js';
 import { parseArgentineHtml, KEY_ARGENTINE_ACTS, type ActIndexEntry, type ParsedAct } from './lib/parser.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -231,6 +231,8 @@ async function censusIngestion(limit: number | null, skipFetch: boolean, force: 
   const results: IngestionResult[] = [];
   const startTime = Date.now();
   let done = 0;
+  let okCount = 0;
+  let failCount = 0;
 
   // Build a map for census updates
   const censusMap = new Map<string, CensusEntry>();
@@ -238,33 +240,41 @@ async function censusIngestion(limit: number | null, skipFetch: boolean, force: 
     censusMap.set(law.id, law);
   }
 
-  for (const entry of toIngest) {
-    done++;
+  // Process in concurrent batches of 5
+  const BATCH_SIZE = 5;
+  for (let i = 0; i < toIngest.length; i += BATCH_SIZE) {
+    const batch = toIngest.slice(i, i + BATCH_SIZE);
 
-    // Progress indicator
+    const batchResults = await runConcurrent(batch, async (entry) => {
+      const act = censusEntryToAct(entry);
+      const result = await ingestOne(act, skipFetch);
+
+      // Update census entry
+      if (result.status === 'success') {
+        const censusEntry = censusMap.get(entry.id);
+        if (censusEntry) {
+          censusEntry.ingested = true;
+          censusEntry.provision_count = result.provisions;
+          censusEntry.ingestion_date = new Date().toISOString().slice(0, 10);
+        }
+      }
+      return result;
+    }, BATCH_SIZE);
+
+    results.push(...batchResults);
+    done += batch.length;
+    okCount = results.filter(r => r.status === 'success').length;
+    failCount = results.filter(r => r.status === 'failed').length;
+
     const elapsed = (Date.now() - startTime) / 1000;
     const rate = done / (elapsed || 1);
     const remaining = (toIngest.length - done) / rate;
     process.stdout.write(
-      `\r  [${done}/${toIngest.length}] ${entry.identifier} | ${results.filter(r => r.status === 'success').length} ok, ${results.filter(r => r.status === 'failed').length} fail | ${rate.toFixed(1)}/s | ETA: ${formatDuration(remaining)}  `
+      `\r  [${done}/${toIngest.length}] ${okCount} ok, ${failCount} fail | ${rate.toFixed(1)}/s | ETA: ${formatDuration(remaining)}  `
     );
 
-    const act = censusEntryToAct(entry);
-    const result = await ingestOne(act, skipFetch);
-    results.push(result);
-
-    // Update census entry
-    if (result.status === 'success') {
-      const censusEntry = censusMap.get(entry.id);
-      if (censusEntry) {
-        censusEntry.ingested = true;
-        censusEntry.provision_count = result.provisions;
-        censusEntry.ingestion_date = new Date().toISOString().slice(0, 10);
-      }
-    }
-
     // Save census progress every 50 laws
-    if (done % 50 === 0) {
+    if (done % 50 < BATCH_SIZE) {
       updateCensusSummary(census);
       fs.writeFileSync(CENSUS_PATH, JSON.stringify(census, null, 2));
     }

@@ -1,6 +1,6 @@
 {
   "name": "@ansvar/argentine-law-mcp",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "mcpName": "eu.ansvar/argentine-law-mcp",
   "description": "Complete Argentine federal law database — 22,800+ leyes nacionales from InfoLEG with Spanish full-text search, covering data protection (Ley 25.326), cybercrime, digital signature, companies, consumer protection, and the full national legislative corpus",
   "author": "Ansvar Systems <hello@ansvar.eu>",

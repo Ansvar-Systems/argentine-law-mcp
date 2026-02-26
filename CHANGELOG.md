@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-02-26
+### Changed
+- Full corpus ingestion: 22,830 laws with 89,793 provisions from InfoLEG
+- Census: 22,832 seed files covering Ley 1 through Ley 29453
+- Database rebuilt at 99 MB with complete FTS5 search index
+- 3,209 legal term definitions extracted
+- Upgraded from partial corpus (~200 laws) to full national legislative corpus
+
 ## [1.0.0] - 2026-XX-XX
 ### Added
 - Initial release of Argentine Law MCP
@@ -23,5 +31,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - npm package with stdio transport
 - MCP Registry publishing
 
-[Unreleased]: https://github.com/Ansvar-Systems/argentine-law-mcp/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/Ansvar-Systems/argentine-law-mcp/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/Ansvar-Systems/argentine-law-mcp/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/Ansvar-Systems/argentine-law-mcp/releases/tag/v1.0.0
