@@ -1,5 +1,5 @@
 /**
- * Response metadata utilities for Australian Law MCP.
+ * Response metadata utilities for Argentine Law MCP.
  */
 
 import type Database from '@ansvar/mcp-sqlite';
@@ -30,12 +30,10 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Federal Register of Legislation (legislation.gov.au) — Australian Government, Office of Parliamentary Counsel',
-    jurisdiction: 'AU',
+    data_source: 'InfoLEG (servicios.infoleg.gob.ar) — Argentine Ministry of Justice and Human Rights',
+    jurisdiction: 'AR',
     disclaimer:
-      'This data is sourced from the Federal Register of Legislation under CC BY 4.0 licence. ' +
-      'The authoritative versions are maintained by the Australian Government. ' +
-      'Always verify with the official Federal Register of Legislation portal (legislation.gov.au).',
+      'This data is sourced from InfoLEG, the official Argentine legislation database. The authoritative versions are maintained by the Argentine Ministry of Justice and Human Rights. Always verify with the official InfoLEG portal (servicios.infoleg.gob.ar).',
     freshness,
   };
 }
