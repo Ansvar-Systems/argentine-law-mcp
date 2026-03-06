@@ -12,3 +12,5 @@ coverage/
 data/source/
 data/seed/
 data/.census-checkpoint.json
+.claude/
+.serena/
